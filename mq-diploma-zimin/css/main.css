@@ -539,6 +539,7 @@ body {
 .product-picture {
     position: relative;
     bottom: -35px;
+    z-index: -1;
 } 
 
 .product-info {
