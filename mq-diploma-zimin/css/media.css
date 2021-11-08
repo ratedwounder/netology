@@ -148,15 +148,3 @@
         max-width: 330px;
     }
 }
-
-@media (min-width: 641px) and (max-width: 1200px) and (orientation: landscape) {
-    .trends-item {
-        flex-basis: 24.9%;
-    }
-}
-
-@media (min-width: 641px) and (max-width: 1200px) and (orientation: portrait) {
-    .trends-item {
-        flex-basis: 49.8%;
-    }
-}
