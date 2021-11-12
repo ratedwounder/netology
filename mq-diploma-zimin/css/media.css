@@ -22,9 +22,14 @@
     }
     .content-wrapper {
         padding: 0 35px;
+    } 
+    .article-item:not(:first-child) {
+        margin-top: 40px;
     }
     .article-item {
         flex-wrap: wrap;
+        padding-bottom: 20px;
+        border-bottom: 3px solid #eeeeee;
     }
     .article-text {
         margin-left: 0;
@@ -95,10 +100,6 @@
     .content {
         margin-top: 50px;
     }
-    .article-item {
-        border-bottom: 3px solid #eeeeee;
-        padding-bottom: 20px;
-    }
     .article-img {
         width: 100%;
     }
@@ -108,9 +109,14 @@
     .aside {
         margin-top: 45px;
         width: 100%;
+        margin-left: 0;
     }
     .aside-title {
         font-size: 16px;
+    }
+    .search-wrapper,
+    .search-input {
+        width: 100%;
     }
     .product-item {
         flex-basis: 330px;
